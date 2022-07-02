@@ -160,7 +160,7 @@ section {
   padding: 12px;
   gap: 10px;
   position: absolute;
-  width: 170px;
+  width: 160px;
   height: 38px;
 
   /* Theme 1 / Primary Colors 3 */
@@ -210,7 +210,7 @@ section {
   border-radius: 8px;
 }
 
-.github {
+ .github {
   /* Vector */
 
   position: absolute;
@@ -822,8 +822,8 @@ section {
   flex-direction: column;
   padding: 16px;
   gap: 12px;
-  width: 147px;
-  height: 50px;
+  width: 137px;
+  height: 60px;
 
   /* Neutrals/N0 */
 
