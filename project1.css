@@ -59,11 +59,11 @@ section {
   top: 950px;
 }
 
-h1 {
+.about {
   /* Primary Text */
 
-  width: 27px;
-  height: 100px;
+  width: 350px;
+  height: 110px;
 
   /* Header / 2 */
 
@@ -87,10 +87,10 @@ h1 {
   order: 0;
   flex-grow: 0;
   position: absolute;
-  top: -50px;
+  top: -20px;
 }
 
-p {
+.dev {
   /* Primary Text */
 
   width: 350px;
@@ -435,6 +435,16 @@ p {
   top: -323px;
 }
 
+.flex-container12 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 375px;
+  height: 420px;
+  left: calc(50% - 375px / 2);
+  top: 5px;
+}
+
 .Vector1 {
   /* Base about my self */
 
@@ -480,7 +490,7 @@ p {
 .snapshoot {
   /* Snapshoot Portfolio */
 
-  width: 295px;
+  width: 355px;
   height: 220px;
   border-radius: 8px;
 
@@ -497,7 +507,7 @@ p {
   /* Project Title */
 
   width: 295px;
-  height: 80px;
+  height: 130px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -515,15 +525,112 @@ p {
   order: 0;
   flex-grow: 0;
   position: absolute;
-  top: 110px;
+  top: 50px;
 }
 
 .two2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+ 
   position: absolute;
-  top: 230.00px;
+  top: 220.00px;
+}
+
+.canopy {
+  /* Text */
+
+
+width: 55px;
+height: 16px;
+
+/* Caption / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+
+/* Neutrals/N600 */
+
+color: #344563;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+position: absolute;
+top: -20px;
+left:0px;
+}
+
+.back {
+  /* Text */
+
+
+width: 108px;
+height: 16px;
+
+/* Caption / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+
+/* Neutrals/N100 */
+
+color: #7A869A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+top: -20px;
+left: 100px;
+}
+
+.year {
+  /* Text */
+
+
+width: 29px;
+height: 16px;
+
+/* Caption / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+
+/* Neutrals/N100 */
+
+color: #7A869A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+top: -20px;
+left: 240px;
 }
 
 .three3 {
@@ -551,15 +658,14 @@ p {
   order: 1;
   flex-grow: 0;
   position: absolute;
-  top: 180px;
+  top: 220px;
 }
 
 .four4 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   position: absolute;
-  top: 345px;
+  top: 335px;
 }
 
 .five5 {
@@ -596,4 +702,199 @@ p {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.button1 {
+  /* html */
+
+
+/* Button / Small */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Primary/B400 */
+
+color: #6070FF;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 53px;
+height: 24px;
+/* Primary/B50 */
+
+background: #EBEBFF;
+border-radius: 8px;
+
+position: absolute;
+top: 325px;
+left: 0px;
+
+}
+
+.button2 {
+    /* html */
+
+
+/* Button / Small */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Primary/B400 */
+
+color: #6070FF;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 53px;
+height: 24px;
+/* Primary/B50 */
+
+background: #EBEBFF;
+border-radius: 8px;
+
+position: absolute;
+top: 325px;
+left: 70px;
+
+}
+
+.button3 {
+  /* html */
+
+
+/* Button / Small */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Primary/B400 */
+
+color: #6070FF;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 93px;
+height: 24px;
+/* Primary/B50 */
+
+background: #EBEBFF;
+border-radius: 8px;
+
+position: absolute;
+top: 325px;
+left: 140px;
+
+}
+
+.button4 {
+  /* See Project */
+
+
+width: 100px;
+height: 24px;
+
+/* Button /Normal */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* Primary/B500 */
+
+color: #396DF2;
+
+/* Card Works */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 12px;
+
+width: 147px;
+height: 50px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+/* Neutrals/N40 */
+
+border: 1px solid #DFE1E6;
+border-radius: 16px;
+
+position: absolute;
+top: 365px;
+
+}
+
+.counter1 {
+  /* Counter */
+
+width: 1px;
+height: 1px;
+
+/* Neutrals/N50 */
+
+background: #C1C7D0;
+
+position: absolute;
+top:-23px;
+left:75px;
+}
+
+.counter2 {
+  /* Counter */
+
+width: 1px;
+height: 1px;
+
+/* Neutrals/N50 */
+
+background: #C1C7D0;
+
+position: absolute;
+top:-23px;
+left:218px;
 }
