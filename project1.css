@@ -1,0 +1,866 @@
+header {
+  /* header-background-mobile */
+
+  position: absolute;
+  width: 375px;
+  height: 1618px;
+  left: 500px;
+  top: 0;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+}
+
+section {
+  /* Headline */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 1618px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 375px;
+  height: 418px;
+  left: calc(50% - 375px / 2);
+  top: 552px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 375px;
+  height: 418px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 375px;
+  height: 400px;
+  left: calc(50% - 375px / 2);
+  top: 950px;
+}
+
+.about {
+  /* Primary Text */
+
+  width: 350px;
+  height: 110px;
+
+  /* Header / 2 */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: -20px;
+}
+
+.dev {
+  /* Primary Text */
+
+  width: 350px;
+  height: 144px;
+
+  /* Body / 2 */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  top: 80px;
+}
+
+.two {
+  /* Get my resume */
+
+  /* Button /Normal */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Primary/B500 */
+
+  color: #396df2;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 350px;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+
+  /* Button / Enable */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 160px;
+  height: 38px;
+
+  /* Theme 1 / Primary Colors 3 */
+
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+.one {
+  /* Buttons */
+
+  width: 169px;
+  height: 24px;
+
+  /* Theme 1 / Button Normal */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Theme 1 / Primary Colors 2 */
+
+  color: #6070ff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: 240px;
+  left: -10px;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  padding: 12px;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+ .github {
+  /* Vector */
+
+  position: absolute;
+  left: 0.08%;
+  right: 0.01%;
+  top: 73%;
+  bottom: 0%;
+
+  /* Neutrals/N400 */
+}
+
+.linkedin {
+  /* Vector */
+
+  position: absolute;
+  left: 10.08%;
+  right: 0.01%;
+  top: 73%;
+  bottom: 0%;
+
+  /* Neutrals/N400 */
+}
+
+.angellist {
+  /* Vector */
+
+  position: absolute;
+  left: 20.08%;
+  right: 0.01%;
+  top: 73%;
+  bottom: 0%;
+
+  /* Neutrals/N400 */
+}
+
+.twitter {
+  /* Vector */
+
+  position: absolute;
+  left: 30.08%;
+  right: 0.01%;
+  top: 73%;
+  bottom: 0%;
+
+  /* Neutrals/N400 */
+}
+
+.medium {
+  /* Vector */
+
+  position: absolute;
+  left: 40.08%;
+  right: 0.01%;
+  top: 73%;
+  bottom: 0%;
+
+  /* Neutrals/N400 */
+}
+
+.languages {
+  /* Languages */
+
+  position: absolute;
+  height: 24px;
+  left: 0;
+  right: 78px;
+  top: calc(5% - 24px / 2);
+
+  /* Body / 1 - Bolder */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.Frameworks {
+  /* Languages */
+
+  position: absolute;
+  height: 24px;
+  left: 0;
+  right: 78px;
+  top: calc(75% - 24px / 2);
+
+  /* Body / 1 - Bolder */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.Skills {
+  /* Languages */
+
+  position: absolute;
+  height: 24px;
+  left: 0;
+  right: 78px;
+  top: calc(98% - 24px / 2);
+
+  /* Body / 1 - Bolder */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.Separator1 {
+  /* Separator Bottom */
+
+  position: absolute;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: calc(92% - 24px / 2);
+
+  /* Neutrals/N40 */
+
+  background: #dfe1e6;
+}
+
+.Separator2 {
+  /* Separator Bottom */
+
+  position: absolute;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: calc(119% - 24px / 2);
+
+  /* Neutrals/N40 */
+
+  background: #dfe1e6;
+}
+
+.flex-container3 {
+  /* Frame 9 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 303px;
+  height: 66.72px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: -470px;
+}
+
+.flex-container4 {
+  /* Frame 9 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 303px;
+  height: 66.72px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: -398px;
+}
+
+.flex-container5 {
+  /* Frame 9 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 303px;
+  height: 66.72px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: -323px;
+}
+
+.flex-container12 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 375px;
+  height: 420px;
+  left: calc(50% - 375px / 2);
+  top: 5px;
+}
+
+.Vector1 {
+  /* Base about my self */
+
+  position: absolute;
+  width: 75px;
+  height: 3px;
+  left: 280px;
+  top: 42px;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+}
+
+.Vector2 {
+  /* Base about my self */
+
+  position: absolute;
+  width: 75px;
+  height: 3px;
+  left: 280px;
+  top: 318px;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+}
+
+.Vector3 {
+  /* Base about my self */
+
+  position: absolute;
+  width: 75px;
+  height: 3px;
+  left: 280px;
+  top: 409px;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+}
+
+.snapshoot {
+  /* Snapshoot Portfolio */
+
+  width: 355px;
+  height: 220px;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: -160px;
+}
+
+.one1 {
+  /* Project Title */
+
+  width: 295px;
+  height: 130px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* or 138% */
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: 50px;
+}
+
+.two2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 220px;
+}
+
+.canopy {
+  /* Text */
+
+  width: 55px;
+  height: 16px;
+
+  /* Caption / 1 - Bolder */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* identical to box height, or 123% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+
+.back {
+  /* Text */
+
+  width: 108px;
+  height: 16px;
+
+  /* Caption / 1 - Bolder */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* identical to box height, or 123% */
+
+  /* Neutrals/N100 */
+
+  color: #7a869a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: -20px;
+  left: 100px;
+}
+
+.year {
+  /* Text */
+
+  width: 29px;
+  height: 16px;
+
+  /* Caption / 1 - Bolder */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* identical to box height, or 123% */
+
+  /* Neutrals/N100 */
+
+  color: #7a869a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: -20px;
+  left: 240px;
+}
+
+.three3 {
+  /* Primary Text */
+
+  width: 295px;
+  height: 76px;
+
+  /* Body / 3 */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* or 160% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  top: 220px;
+}
+
+.four4 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 335px;
+}
+
+.five5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 385px;
+
+  /* See Project */
+
+  width: 100px;
+  height: 24px;
+
+  /* Button /Normal */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Primary/B500 */
+
+  color: #396df2;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button1 {
+  /* html */
+
+  /* Button / Small */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.03em;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+
+  /* Primary/B50 */
+
+  background: #ebebff;
+  border-radius: 8px;
+  position: absolute;
+  top: 325px;
+  left: 0;
+}
+
+.button2 {
+  /* html */
+
+  /* Button / Small */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.03em;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+
+  /* Primary/B50 */
+
+  background: #ebebff;
+  border-radius: 8px;
+  position: absolute;
+  top: 325px;
+  left: 70px;
+}
+
+.button3 {
+  /* html */
+
+  /* Button / Small */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.03em;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 93px;
+  height: 24px;
+
+  /* Primary/B50 */
+
+  background: #ebebff;
+  border-radius: 8px;
+  position: absolute;
+  top: 325px;
+  left: 140px;
+}
+
+.button4 {
+  /* See Project */
+
+  /* Button /Normal */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Primary/B500 */
+
+  color: #396df2;
+
+  /* Card Works */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: column;
+  padding: 16px;
+  gap: 12px;
+  width: 137px;
+  height: 60px;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+
+  /* Neutrals/N40 */
+
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  position: absolute;
+  top: 365px;
+}
+
+.counter1 {
+  /* Counter */
+
+  width: 1px;
+  height: 1px;
+
+  /* Neutrals/N50 */
+
+  background: #c1c7d0;
+  position: absolute;
+  top: -23px;
+  left: 75px;
+}
+
+.counter2 {
+  /* Counter */
+
+  width: 1px;
+  height: 1px;
+
+  /* Neutrals/N50 */
+
+  background: #c1c7d0;
+  position: absolute;
+  top: -23px;
+  left: 218px;
+}
