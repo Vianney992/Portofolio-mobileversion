@@ -57,6 +57,7 @@ section {
   color: #FFFFFF;
   padding-top: 70px;
   width: 375px;
+  position: absolute;
 }
 
 .add-contact>p {
@@ -123,21 +124,32 @@ form > button{
   border: none;
   letter-spacing: 0.03em;
   color: #6070FF;
+  position: absolute;
+  left : 75px;
+  margin-top: 20px;
 }
 
 form > button:hover{
   color: #CFD8DC;
-  background-color: #6070FF;
+  background-color:#6070FF;
 }
-
 
 
 .add-contact-bckgrnd{
   background-color: #6070FF;
   border-radius: 8rem 0 0 0;
-  background-image: url(./contact\ form\ shapes-mobile.svg);
   background-repeat: no-repeat;
+  left: 0px;
 }
+
+.image {
+  background-image: url(./contact\ form\ shapes-mobile.svg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
 
 .flex-container1 {
   display: flex;
