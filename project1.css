@@ -54,17 +54,28 @@ section {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  color: #FFFFFF;
+  padding-top: 70px;
 }
 
 .add-contact>p {
   font-weight: 400;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 28px;  
+  color: #EBEBFF;
+  padding: 0 20px;
+
 }
 
 .add-contact li {
   list-style: none;
 }
+
+.form {
+  width: 350px;
+}
+
+
 
 .add-contact-bckgrnd{
   background-color: #6070FF;
@@ -906,4 +917,6 @@ section {
 
 
 /* About US Section  */
+
+
 
