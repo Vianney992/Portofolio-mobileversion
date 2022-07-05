@@ -44,9 +44,33 @@ section {
   flex-direction: column;
   position: absolute;
   width: 375px;
-  height: 418px;
+  height: 100vh;
   left: calc(50% - 375px / 2);
-  top: 1452px;
+  top: 1452px; 
+  text-align: center;
+}
+
+.add-contact>h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.add-contact>p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.add-contact li {
+  list-style: none;
+}
+
+.add-contact-bckgrnd{
+  background-color: #6070FF;
+  border-radius: 8rem 0 0 0;
+  background-image: url(./contact\ form\ shapes-mobile.svg);
+  background-repeat: no-repeat;
 }
 
 .flex-container1 {
@@ -879,3 +903,7 @@ section {
   top: -23px;
   left: 218px;
 }
+
+
+/* About US Section  */
+
