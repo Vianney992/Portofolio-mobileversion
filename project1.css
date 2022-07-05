@@ -46,25 +46,25 @@ section {
   width: 375px;
   height: 100vh;
   left: calc(50% - 375px / 2);
-  top: 1452px; 
+  top: 1452px;
   text-align: center;
 }
 
-.add-contact>h1 {
+.add-contact > h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #FFFFFF;
+  color: #fff;
   padding-top: 70px;
   width: 375px;
   position: absolute;
 }
 
-.add-contact>p {
+.add-contact > p {
   font-weight: 400;
   font-size: 20px;
-  line-height: 28px;  
-  color: #EBEBFF;
+  line-height: 28px;
+  color: #ebebff;
   padding: 0 20px;
   position: absolute;
   top: 150px;
@@ -80,10 +80,9 @@ section {
 .add-contact li {
   list-style: none;
   width: 375px;
-  
 }
 
-input{
+input {
   width: 80%;
   height: 48px;
   margin: 0 auto;
@@ -93,19 +92,19 @@ input{
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  border: 1px solid #CFD8DC;
-  outline: #CFD8DC
+  border: 1px solid #cfd8dc;
+  outline: #cfd8dc;
 }
 
-textarea{
+textarea {
   height: 170px;
   border-radius: 8px;
   width: 80%;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  border: 1px solid #CFD8DC;
-  outline: #CFD8DC
+  border: 1px solid #cfd8dc;
+  outline: #cfd8dc;
 }
 
 form {
@@ -114,7 +113,7 @@ form {
   top: 320px;
 }
 
-form > button{
+form > button {
   width: 140px;
   border-radius: 8px;
   padding: 12px 16px;
@@ -123,23 +122,22 @@ form > button{
   outline: none;
   border: none;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   position: absolute;
-  left : 75px;
+  left: 75px;
   margin-top: 20px;
 }
 
-form > button:hover{
-  color: #CFD8DC;
-  background-color:#6070FF;
+form > button:hover {
+  color: #cfd8dc;
+  background-color: #6070ff;
 }
 
-
-.add-contact-bckgrnd{
-  background-color: #6070FF;
+.add-contact-bckgrnd {
+  background-color: #6070ff;
   border-radius: 8rem 0 0 0;
   background-repeat: no-repeat;
-  left: 0px;
+  left: 0;
 }
 
 .image {
@@ -149,7 +147,6 @@ form > button:hover{
   margin-top: 10px;
   margin-left: 150px;
 }
-
 
 .flex-container1 {
   display: flex;
@@ -322,7 +319,7 @@ form > button:hover{
   border-radius: 8px;
 }
 
- .github {
+.github {
   /* Vector */
 
   position: absolute;
@@ -826,8 +823,6 @@ form > button:hover{
   flex-direction: row;
   align-items: center;
   float: left;
-  width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
-
   padding: 4px 12px;
   width: 53px;
   height: 24px;
@@ -984,6 +979,3 @@ form > button:hover{
 
 
 /* About US Section  */
-
-
-

@@ -1,7 +1,7 @@
-## Portofolio: mobile version
-In this project, we build the middle section of the mobile website:
-- the work section
-- the about myself section
+## Portofolio: add a contact form and finish the mobile version
+In this project, we build the third millestone section of the mobile website:
+- Add a contact form to your portfolio and the portfolio of your coding partner.
+Make sure that you guide your users' experience in a way that helps them fill in the form without frustration.
 
 ## Build with
 - HTML
