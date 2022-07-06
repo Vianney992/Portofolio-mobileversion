@@ -126,7 +126,7 @@ form > button {
   position: absolute;
   left: 75px;
   margin-top: 20px;
-  background: #ffffff;
+  background: white;
 }
 
 form > button:hover {
