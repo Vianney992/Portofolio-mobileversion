@@ -155,7 +155,6 @@
 
         <div class="add-contact add-contact-bckgrnd">
           <div class="image"></div>
-          >
 
           <h1>Contact me</h1>
           <p>
@@ -165,26 +164,28 @@
           </p>
 
           <form
-            action="https://formspree.io/f/xzboleol"
+            action="https://formspree.io/f/xdobrgnl"
             method="POST"
             class="form"
           >
             <ul>
               <li>
-                <input
+                <input 
                   type="text"
                   id="name"
                   name="name"
                   placeholder="contact name"
                   maxlength="30"
+                  required
                 />
               </li>
               <li>
-                <input
+                <input 
                   type="email"
                   id="mail"
                   name="email"
                   placeholder="contact@gmail.com"
+                  required
                 />
               </li>
               <li>
@@ -193,10 +194,11 @@
                   name="message"
                   placeholder="Write your message here"
                   maxlength="500"
+                  required
                 ></textarea>
               </li>
             </ul>
-            <button type="button">Get it touch</button>
+            <button type="submit">Get it touch</button>
           </form>
         </div>
       </section>

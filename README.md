@@ -1,7 +1,6 @@
 ## Portofolio: add a contact form and finish the mobile version
 In this project, we build the third millestone section of the mobile website:
-- Add a contact form to your portfolio and the portfolio of your coding partner.
-Make sure that you guide your users' experience in a way that helps them fill in the form without frustration.
+- Add a contact form to the portfolio
 
 ## Build with
 - HTML

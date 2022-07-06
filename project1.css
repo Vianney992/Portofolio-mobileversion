@@ -44,7 +44,7 @@ section {
   flex-direction: column;
   position: absolute;
   width: 375px;
-  height: 100vh;
+  height: 800px;
   left: calc(50% - 375px / 2);
   top: 1452px;
   text-align: center;
@@ -126,11 +126,11 @@ form > button {
   position: absolute;
   left: 75px;
   margin-top: 20px;
+  background: #ffffff;
 }
 
 form > button:hover {
-  color: #cfd8dc;
-  background-color: #6070ff;
+  color: rgb(114, 114, 245);
 }
 
 .add-contact-bckgrnd {
